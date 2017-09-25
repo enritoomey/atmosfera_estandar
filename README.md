@@ -57,4 +57,5 @@ In [22]: print("velocidad del sonido: {} m/s ".format(vson))
 velocidad del sonido: 332.27211423916 m/s
 ```
 
-Thereś also a GUI asociate with this library. It uses pyside and Qt. It consist of a simple dialog box containing the input parameters and results of the atmosfera_estandar method.
+There is also a GUI asociate with this library. It uses pyside and Qt. It consist of a simple dialog box containing the input parameters and results of the atmosfera_estandar method. GUI knows how to display results in imperial units, but behind all calculations are implemented in Iternational Units.
+
