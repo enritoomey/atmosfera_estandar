@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 from setuptools import setup, find_packages
 
 
@@ -8,7 +8,8 @@ setup(
     author='Enrique Carlos Toomey',
     author_email='enritoomey@gmail.com',
     long_description='This library implemets the International Standard Atmospheric model.',
-    packages=find_packages(exclude=["tests"]),
+    packages=['atmosfera_estandar','atmosfera_estandar_gui'],
+#   packages=find_packages(exclude=["tests"]),
     license="?",
     classifiers=[
         'Development Status :: 1 - Beta',
