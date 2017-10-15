@@ -1,5 +1,5 @@
 import unittest
-import atmosfera_estandar
+import atmosfera_estandar.atmosfera_estandar as atmosfera_estandar
 class TestAtmosferaEstandar(unittest.TestCase):
 
     def setUp(self):
