@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 from setuptools import setup, find_packages
-
 
 setup(
     name='atmosfera_estandar',
@@ -20,7 +19,7 @@ setup(
         'Topic :: Utilities',
     ],
     install_requires=[
-        'numpy', 'pyside' 
+        'numpy',# 'pyside' 
 
     ],
 )
