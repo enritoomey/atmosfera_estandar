@@ -1,7 +1,7 @@
 __author__ = 'Enriquito'
 import sys
 import atmosfera_estandar.atmosfera_estandar as atmosfera_estandar
-import layout_atmosfera_estandar as layout
+import atmosfera_estandar.gui.layout_atmosfera_estandar as layout
 from PySide.QtCore import *
 from PySide.QtGui import *
 
